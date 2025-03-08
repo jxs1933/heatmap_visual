@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Leaflet_HeatMap_NEW.html",
+            "file": "/Users/meghanagopu/testHeatmap/Leaflet_HeatMap_NEW.html"
+        },
+        {
+            "type": "chrome",
+            "name": "Launch Chrome",
+            "request": "launch",
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "url": "file:///Users/meghanagopu/testHeatmap/Leaflet_HeatMap_NEW.html",
+            "presentation": {
+                "hidden": true
+            }
+        },
+        {
+            "type": "chrome",
+            "name": "Launch Chrome in headless mode",
+            "request": "launch",
+            "runtimeArgs": [
+                "--headless",
+                "--remote-debugging-port=9222"
+            ],
+            "url": "file:///Users/meghanagopu/testHeatmap/Leaflet_HeatMap_NEW.html",
+            "presentation": {
+                "hidden": true
+            }
+        },
+        {
+            "type": "vscode-edge-devtools.debug",
+            "name": "Open Chrome DevTools",
+            "request": "attach",
+            "url": "file:///Users/meghanagopu/testHeatmap/Leaflet_HeatMap_NEW.html",
+            "presentation": {
+                "hidden": true
+            }
+        }
+    ],
+}
