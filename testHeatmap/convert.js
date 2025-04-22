@@ -6,7 +6,7 @@ const inputFile = 'san_atonio_labeled_v2.csv';  // Replace with your actual CSV 
 const outputFile = 'data.js';
 
 csv()
-    .fromFile(inputFile)
+    .fromFile(inputFile) 
     .then((jsonArray) => {
         // Extract only latitude, longitude, and severity
         const filteredData = jsonArray.map(row => ({
